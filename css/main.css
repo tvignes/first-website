@@ -6,6 +6,7 @@ html{
 body{
     color:white;
     background-color:#0f1321;
+    font-family: "Helvetica", sans-serif;
     font-size: 50px;
     background-image: url(../img/horizontal2.jpeg)
 }
@@ -20,6 +21,10 @@ a:focus-visible{
     border: 2px solid paleturquoise;
 }
 
-.top-text{
+.era{
+    text-align: center;
+}
+
+.ts{
     text-align: center;
 }
