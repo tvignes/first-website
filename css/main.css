@@ -28,3 +28,14 @@ a:focus-visible{
 .ts{
     text-align: center;
 }
+
+.maroon{
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.glitch{
+  font-family: "Rubik Glitch", serif;
+  font-weight: 400;
+  font-style: normal;
+}
