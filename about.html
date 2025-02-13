@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Taylor Swift Midnights Era About Page</title>
- 
+  <title>Taylor Swift Midnights Era</title>
+  
   <meta name="description" content="This site shows information and photos from the Midnights Era of Taylor Swift's Eras Tour">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,18 +15,40 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
- <link rel="icon" type="image/png" href="./img/favicon.png"> 
- <!-- Place favicon.ico in the root directory -->
- 
+  <link rel="icon" type="image/png" href="./img/favicon.png">
+  <!-- Place favicon.ico in the root directory -->
+
   <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik+Glitch&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- Place your site's HTML here -->
- 
+  <main>
+    <div class="contact-form">
+      <form action="/submit_form" method="post">
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+       <label for="email">Email:</label>
+       <input type="email" id="email" name="email"><br><br>
+       <label for="password">Password:</label>
+       <input type="password" id="password" name="password" required><br><br>
+       <label>Gender:</label>
+       <input type="radio" id="male" name="gender" value="male" checked>
+       <label for="male">Male</label>
+       <input type="radio" id="female" name="gender" value="female">
+       <label for="female">Female</label><br><br>
+       <label for="file">File Upload:</label>
+       <input type="file" id="file" name="file" multiple><br><br>
+       <input type="submit" value="Submit">
+      </form>
+    </div>
+  </main>
   <script src="./js/main.js"></script>
 </body>
 
