@@ -5,8 +5,35 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color:#e9e8e4;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+h1{
+
+}
+h2{
+    color:#6995a9;
+    font-family: "Helvetica", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+h3{
+    color:#6995a9;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+h4{
+    color:#525f86;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    font-weight: 700; 
+}
 body a{
-    color: #fff;
+    color: #525f86;
 }
 a:hover{
     color:#6995a9
@@ -16,10 +43,11 @@ a:focus-visible{
 }
 
 header{
+    font-size: 24px;
     background-color: #e9e8e4;
     padding: 20px 150px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
       row-gap: 10px;
       justify-items: center;
@@ -37,40 +65,40 @@ nav n3{
     grid-column: 3 / 4;
     grid-row: 2 / 3;
 }
+nav n4{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
 header img{
     max-width: 400px;
-    grid-column: 1/4;
+    grid-column: 1/5;
     grid-row: 1/2;
 }
 header nav{ 
     margin: 0 150px;
 }
-header a{
+
+main{
+    margin:100px 200px;
     color:#525f86;
-    font-size: 24px;
 }
 
-body{
-    color:white;
-    background-color:#e9e8e4;
-    font-family: "Helvetica", sans-serif;
-    font-size: 14px;
-}
-
-.ts{
-    text-align: center;
-}
-
-.releases{
+.covers{
     display:flex;
     gap:30px;
     justify-content: space-between;
-    margin:50px
+    margin:50px;
+    text-align: center;
+    color:#e9e8e4;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
 }
 .album{
-background-color: #6995a9;
-max-width: 300px;
-padding:20px
+    color:#e9e8e4;
+    background-color: #6995a9;
+    max-width: 300px;
+    padding:20px
 }
 .album img{
     width: 100%;
@@ -85,4 +113,11 @@ padding:20px
   font-family: "Rubik Glitch", serif;
   font-weight: 400;
   font-style: normal;
+}
+footer {
+    background-color: #525f86;
+    color: #e9e8e4;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
 }
