@@ -121,3 +121,19 @@ footer {
     text-align: center;
     font-weight: 400;
 }
+
+.about-header{
+    font-size: 24px;
+    background-color: #e9e8e4;
+    box-shadow: 0 30px 40px#525f86;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px;
+}
+.ah-nav{
+    display:flex;
+}
+.logo{
+    max-height: 90px;
+}
